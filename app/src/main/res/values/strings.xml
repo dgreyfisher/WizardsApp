@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wizards</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="startingQuestText">Ahh, hello wizards!\n\n...why yes, as a matter of fact, I DO have some things for you to do!</string>
+    <string name="topic1Body">Wizards are beings of such unfathomable power that they have transcended petty, mortal concepts such as Common Sense, Morality, and Decency.\n\nThere is nothing a Wizard loves more than being cooler and smarter than other Wizards.</string>
+    <string name="topic2Body">Every Turn, one Wizard begins by reading the Archmage\'s Quest.\n\nEach Wizard may then select a spell to meet the challenge. Once all selections are made, the Wizards join in scholarly debate (cheeks puffed, arms flailing) over which spell to use.\n\nA vote is taken, and the Winner gets to cast their spell and gain one Accolade.\n\nThe first Wizard to 3 Accolades wins the Round.</string>
+
+</resources>

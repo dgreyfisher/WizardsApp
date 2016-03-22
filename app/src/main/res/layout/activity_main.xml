@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainPage" tools:ignore="MergeRootFrame"
+    android:background="@drawable/wood">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/titleart" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="7dp"
+            android:layout_weight="6"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgRandom"
+                android:layout_gravity="center|bottom" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder2"
+            android:layout_margin="15dp"
+            android:layout_gravity="center|bottom">
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Huzzah!   "
+                android:id="@+id/startBtn"
+                android:layout_gravity="center|bottom"
+                android:background="@drawable/buttonback"
+                android:textColor="#000000" />
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customborder2"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   The Wizard Way   "
+            android:id="@+id/howToPlayBtn"
+            android:layout_gravity="center|bottom"
+            android:background="@drawable/buttonback"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
